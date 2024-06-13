@@ -1,0 +1,43 @@
+h1 
+{
+text-align: center;
+    color:brown;
+}
+h2{
+    text-align: center;
+    color:rgb(2, 94, 2);
+}
+caption{
+    text-decoration: rgb(61, 52, 4) wavy underline;
+    color:red;
+}
+tbody{
+    color:black;
+}
+button{
+    background-color: rgb(251, 251, 251);
+     color:rgb(68, 0, 255)
+}
+body{
+    background-color:antiquewhite;
+}
+#rowone{
+    color:aliceblue;
+    background-color: chocolate;
+}
+#rowtwo{
+    background-color: rgba(123, 231, 28, 0.842);
+}
+#rowthree{
+    color:aliceblue;
+    background-color: chocolate;
+}
+#rowfour{
+    background-color: rgba(123, 231, 28, 0.842);
+};
+#not{
+    font-weight: 900;
+}
+#row{
+    font-family: cursive;
+}

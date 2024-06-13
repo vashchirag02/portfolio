@@ -1,0 +1,62 @@
+@media (min-width: 500px) {
+    
+
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    width: auto;
+    border-style: solid;
+    color: darkred;
+    background-color: rgb(240, 205, 166);
+}
+h3{
+    margin: 0px 0px 0px 40px;
+    text-align: center;
+    color: dimgrey;
+}
+button{
+   color:crimson;
+   font-weight: 800;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+   
+}
+#but1{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0px ;
+    
+}
+#navbar{
+    color:aliceblue ;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 5px;
+}
+#logo{
+    color:rgb(250, 201, 65);
+} 
+a{
+    color: aliceblue;
+    margin-right: 200px;
+    text-decoration: none;
+    padding: 90px;
+}
+#but{
+    text-align: center;
+}
+#pre1{
+    padding-left: 700px;
+}
+#link{
+    padding: 0px;
+}
+}
