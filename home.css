@@ -1,8 +1,60 @@
-@media (min-width: 500px) {
-    
 
+    
 body{
-    background-color: beige;
+    background-color: rgb(255, 252, 252);
+    line-height: 1.5;
+    background:linear-gradient(to right,darkred,antiquewhite,darkred);
+    color:black;
+
+}
+
+
+footer{
+    background-color: black;
+    color:white;
+    
+}
+iframe{
+    border: none;
+
+}
+ul{
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Align items in a row */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul li{
+    
+    text-align: center;
+    padding:10px 15px;
+    margin: 0 20px 0px 0px;
+    background:rgb(166, 39, 39) ;
+    color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 black;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column; /* Stack list items */
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+
+    ul li {
+        width: 100%; /* Full width on smaller screens */
+        padding:10px 15px;
+     
+        max-width: 150px;
+    }
 }
 
 h1{
@@ -10,53 +62,157 @@ h1{
     width: auto;
     border-style: solid;
     color: darkred;
-    background-color: rgb(240, 205, 166);
+    border-color: darkred;
+    background-color:antiquewhite;
+   
+    padding:10px;
+
+}
+h2{
+    color: darkred;
 }
 h3{
     margin: 0px 0px 0px 40px;
     text-align: center;
-    color: dimgrey;
+    color:black;
+    font-weight: 100%;
 }
 button{
+    
    color:crimson;
    font-weight: 800;
 }
+#div-img{
+    text-align: center;
+}
 .image{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    box-shadow:0 3px 9px 3px darkred;
+    
    
 }
-#but1{
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    margin: 0px ;
+
+section{
+   
+    margin: 10px auto; 
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px 0px black;
+    max-width: 800px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     
 }
-#navbar{
-    color:aliceblue ;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.75);
-    text-align: center;
-    padding: 5px;
+form{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px black;
 }
-#logo{
-    color:rgb(250, 201, 65);
-} 
-a{
-    color: aliceblue;
-    margin-right: 200px;
-    text-decoration: none;
-    padding: 90px;
+
+form textarea , #email ,#name{
+    width:calc(100% - 20px);
+    border-radius: 5px;
+   
 }
-#but{
-    text-align: center;
+form button{
+    cursor: pointer;
 }
-#pre1{
-    padding-left: 700px;
+
+button:hover{
+    background: rgb(208, 204, 204);
 }
+
+a:hover{
+    color:rgb(16, 166, 247);
+}
+hr{
+    width:50%;
+    margin: 20px auto;
+    border-top: 2px solid darkred;
+}
+.icon-link{
+    display: inline-flex;
+    align-items: center;
+    
+}
+.icon{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width:auto;
+}
+
 #link{
     padding: 0px;
 }
+
+#email-icon{
+    color:darkslategrey;
+}
+#linkedin-icon{
+    color:darkblue;
+}
+#linkedin-icon:hover{
+    color:darkgray;
+}
+#email-icon:hover{
+    color:darkgray;
+}
+
+#name{
+  color: black;
+  max-width: fit-content;
+  padding: 5px;
+  margin: 4px;
+}
+
+.dar-mode button{
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+    background:black;
+}
+
+.dark-mode p, .dark-mode h2,.dark-mode #name{
+    color: white;
+}
+.dark-mode form{
+    background-color: black;
+}
+.dark-mode h1{
+    background-color: black;
+    color:white;
+   
+}
+
+#prog-lang{
+    margin-top: 50px;
+}
+#prog-lang .skill{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#prog-lang .progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, darkred, wheat);
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+    
+}
+#prog-lang .progress{
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
 }
